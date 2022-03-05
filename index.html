@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Da Cakes | Inicio    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+    <header>
+        <div class="inicio">
+            <nav>
+                <img src="assets/logo.png" alt="logo Da Cakes">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sabores">Sabores</a></li>
+                    <li><a href="#adornos">Adornos</a></li>
+                    <li><a href="#formulario">Formulario</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main-info" id="inicio">
+            <div class="info">
+                <h1> Da Cakes</h1>
+                <p>
+                    !Disfruta de la vida comiendo Da Cakes!<br>
+                    Dirección: AV EUGENIO GARZA SADA 6210 NO. 2, CIUDAD SATELITE, 64960<br>
+                    Teléfono: 8118546723<br>
+                    Horarios: Lunes a Sábado 8am-6pm<br>
+                </p>
+            </div>
+            <div class="ilustration">
+                <img src="assets/mainCake.png" alt="Pastel de muestra de arcoíris">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="sabores" id="sabores">
+            <h1>Sabores disponibles</h1>
+            <div class="item">
+               <div class="item-img">
+                  <img src="assets/mainCake.png" alt="Pastel de muestra de arcoíris">
+               </div>
+               <div class="item-description">
+                   <h2>Da Multicolor Cake</h2>
+                   <p>Pastel de 3 leches, con más sabor que colores<br>Precio: $400</p>
+               </div>
+            </div>
+            <div class="item">
+                <div class="item-img">
+                   <img src="assets/chocolateCake.png" alt="Pastel de muestra de arcoíris">
+                </div>
+                <div class="item-description">
+                    <h2>Da Chocolate Cake</h2>
+                    <p>Pastel de chocolate, para disfrutar en familia<br>Precio: $400</p>
+                </div>
+             </div>
+             <div class="item">
+                <div class="item-img">
+                   <img src="assets/peachCake.png" alt="Pastel de muestra de arcoíris">
+                </div>
+                <div class="item-description">
+                    <h2>Da Durazno Cake</h2>
+                    <p>Pastel de durazno, ideal para el postre<br>Precio: $350</p>
+                </div>
+             </div>
+             <div class="item">
+                <div class="item-img">
+                   <img src="assets/fresaCake.png" alt="Pastel de muestra de arcoíris">
+                </div>
+                <div class="item-description">
+                    <h2>Da Fresa Cake</h2>
+                    <p>Pastel de fresa, el mejor de la casa<br>Precio: $450</p>
+                </div>
+             </div>
+        </div>
+        <div class="adornos" id="adornos">
+            <h1>Adornos disponibles</h1>
+            <div class="item">
+               <div class="item-img">
+                  <img src="assets/adornoHB.png" alt="Pastel de muestra de arcoíris">
+               </div>
+               <div class="item-description">
+                   <h2>Da Happy Birthday Message</h2>
+                   <p>Mensaje de Feliz Cumpleaños!<br>Precio: $50</p>
+               </div>
+            </div>
+            <div class="item">
+                <div class="item-img">
+                   <img src="assets/adornoEstrella.png" alt="Pastel de muestra de arcoíris">
+                </div>
+                <div class="item-description">
+                    <h2>Da Star</h2>
+                    <p>Estrella para adornar darle un toque especial a tu pastel<br>Precio: $100</p>
+                </div>
+             </div>
+             <div class="item">
+                <div class="item-img">
+                   <img src="assets/adornoNumero.png" alt="Pastel de muestra de arcoíris">
+                </div>
+                <div class="item-description">
+                    <h2>Da Number</h2>
+                    <p>Vela de número para montar en el pastel<br>Precio: $50</p>
+                </div>
+             </div>
+             <div class="item">
+                <div class="item-img">
+                   <img src="assets/adornoVela.png" alt="Pastel de muestra de arcoíris">
+                </div>
+                <div class="item-description">
+                    <h2>Da Rocket Candle</h2>
+                    <p>Vela chispera para darle marcar más tú momento<br>Precio: $45</p>
+                </div>
+             </div>
+        </div>
+        <div class="formulario">
+            <h1>Formulario</h1>
+            <div class="container">
+                <div class="data">
+                    <form>
+                        <h3>Información personal</h3>
+                        <label for="nombre">Nombre:</label>
+                        <input class="inputTexto" type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre">
+                        <label for="tel">Teléfono:</label>
+                        <input class="inputTexto" type="tel" maxlength="10" id="tel" name="tel" placeholder="Ingresa tu teléfono"><br>
+                        <label for="mail">Correo Electrónico:</label>
+                        <input class="inputTexto" type="email" id="mail" name="mail" placeholder="Ingresa tu correo "><br>
+
+                        <h3>Pasteles</h3>
+                        <input type="checkbox" id="pastel1" name="pastel1" value="DaMulticolorCake">
+                        <label for="pastel1"> Da Multicolor Cake</label><br>
+                        <label class="cantidad" for="cantidadMulticolor">Cantidad:</label>
+                        <input type="number" id="cantidadMulticolor" name="cantidadMulticolor"><br>
+
+                        <input type="checkbox" id="pastel2" name="pastel2" value="DaChocolateCake">
+                        <label for="pastel2"> Da Chocolate Cake</label><br>
+                        <label class="cantidad" for="cantidadChocolate">Cantidad:</label>
+                        <input type="number" id="cantidadChocolate" name="cantidadChocolate"><br>
+
+                        <input type="checkbox" id="pastel3" name="pastel3" value="DaDuraznoCake">
+                        <label for="pastel3"> Da Durazno Cake</label><br>
+                        <label class="cantidad" for="cantidadDurazno">Cantidad:</label>
+                        <input type="number" id="cantidadDurazno" name="cantidadDurazno"><br>
+
+                        <input type="checkbox" id="pastel4" name="pastel4" value="DaFresaCake">
+                        <label for="pastel4"> Da Fresa Cake</label><br>
+                        <label class="cantidad" for="cantidadFresa">Cantidad:</label>
+                        <input type="number" id="cantidadFresa" name="cantidadFresa"><br>
+
+                        <h3>Adornos</h3>
+                        <input type="checkbox" id="adorno1" name="adorno1" value="dhbm">
+                        <label for="adorno1"> Da Happy Birthday Message</label><br>
+                        <label class="cantidad" for="cantidadDHBM">Cantidad:</label>
+                        <input type="number" id="cantidadDHBM" name="cantidadDHBM"><br>
+
+                        <input type="checkbox" id="adorno2" name="adorno2" value="ds">
+                        <label for="adorno2"> Da Star</label><br>
+                        <label class="cantidad" for="cantidadDS">Cantidad:</label>
+                        <input type="number" id="cantidadDS" name="cantidadDS"><br>
+
+                        <input type="checkbox" id="adorno3" name="adorno3" value="dn">
+                        <label for="adorno3"> Da Number</label><br>
+                        <label class="cantidad" for="cantidadDN">Cantidad:</label>
+                        <input type="number" id="cantidadDN" name="cantidadDN"><br>
+
+                        <input type="checkbox" id="adorno4" name="adorno4" value="drc">
+                        <label for="adorno4"> Da Rocket Candle</label><br>
+                        <label class="cantidad" for="cantidadDRC">Cantidad:</label>
+                        <input type="number" id="cantidadDRC" name="cantidadDRC"><br>
+
+                        <h3>Comentarios</h3>
+                        <textarea class="inputTexto"></textarea>
+
+                        <div class="btn">
+                            <button class="boton" type="submit">Realizar pedido</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
