@@ -164,3 +164,39 @@ nav li:hover > a{
 textarea{
     resize: none;
 }
+.saboresyAdornos{
+    height: auto;
+    background-color: #fff5ff;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em;
+    align-content: center;
+}
+.container-table{
+    flex-grow: 50%;
+    margin: auto;
+}
+table{
+    margin: 2em auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+th, td{
+    padding: .5em 2em;
+    border: 2px solid #ffa3c9;
+    border-collapse: collapse;
+}
+.pedidos{
+    height: auto;
+    background-color: #fde5ea;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em;
+    align-content: center;
+}
+.container-table-pedidos{
+    width: 90%;
+    margin: auto;
+}
+
+
